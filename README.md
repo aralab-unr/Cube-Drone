@@ -1,1 +1,1 @@
-# Cube-Drone: A Multi-Terrain Hybrid Robotic System for Inspection and Navigation
+# Cube-Drone: A Multisensor Hybrid Drone for Multi-Terrain Mobility, 3D Mapping, and Steel Structure Inspection
