@@ -71,7 +71,7 @@ To embed the controller onto the Teensy 4.1, the user must download the ArduinoS
 * Note: The embedded code may have some missing includes in the acado_qpoases_interface.cpp file. To fix this, change #include "INCLUDE/EXTRAS/SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp" and change #include "INCLUDE/QProblemB.hpp" to #include "QProblemB.hpp".
   
 ## Results
-
+### Stability test
 We also test the stability of the proposed on the motor failure cases:
 <p align="center">
   <img src="figures/hardwaresetupfailure.png" alt="Drone Frame" width="750">
