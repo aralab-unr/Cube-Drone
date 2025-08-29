@@ -104,3 +104,5 @@ We also test the stability of the proposed on the motor failure cases:
   <img src="figures/ground.png" alt="ground" width="450">
   <img src="figures/imuground.png" alt="imuground" width="350">
 </p>
+
+### Data collection and mapping
