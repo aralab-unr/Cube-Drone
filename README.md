@@ -118,3 +118,13 @@ We also test the stability of the proposed on the motor failure cases:
 </p>
 
 ### Inpsection
+
+<p align="center">
+  <img src="figures/indoorinspectioncube.png" alt="indoorinspectioncube" width="800">
+</p>
+<p align="center">
+  <img src="figures/outdoorinspectioncube.png" alt="outdoorinspectioncube" width="800">
+</p>
+<p align="center">
+  <img src="figures/bridgeinspectioncube.png" alt="bridgeinspectioncube" width="800">
+</p>
