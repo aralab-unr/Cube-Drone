@@ -90,3 +90,5 @@ We also test the stability of the proposed on the motor failure cases:
   <img src="figures/imuculvertangular.png" alt="imuculvert" width="400">
   <img src="figures/imuculvertacc.png" alt="accculvert" width="400">
 </p>
+
+### Multifunctional working mode test
