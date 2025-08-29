@@ -74,7 +74,7 @@ To embed the controller onto the Teensy 4.1, the user must download the ArduinoS
 ### Stability test
 We also test the stability of the proposed on the motor failure cases:
 <p align="center">
-  <img src="figures/hardwaresetupfailure.png" alt="Drone Frame" width="750">
+  <img src="figures/motorfailureprop.png" alt="failure" width="750">
 </p>
 <p align="center">
   <img src="figures/performancecube.png" alt="performacne" width="750">
