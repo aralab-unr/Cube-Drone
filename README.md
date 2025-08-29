@@ -72,7 +72,7 @@ To embed the controller onto the Teensy 4.1, the user must download the ArduinoS
   
 ## Results
 ### Stability test
-We also test the stability of the proposed on the motor failure cases:
+To evaluate the stability of the Cube-Drone, we conducted tests on motor failure scenarios as well as its ability to fly through a narrow culvert. The hardware setup for the motor failure case is shown below:
 <p align="center">
   <img src="figures/failurehardware.png" alt="failure" width="750">
 </p>
@@ -83,6 +83,7 @@ We also test the stability of the proposed on the motor failure cases:
   <img src="figures/pwmcube.png" alt="pwmnormanl" width="400">
   <img src="figures/pwmcubefailure.png" alt="pwmfailure" width="400">
 </p>
+The Cube-Drone flew through a narrow culvert:
 <p align="center">
   <img src="figures/flyculvert3d.png" alt="flyculvert" width="900">
 </p>
