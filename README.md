@@ -30,7 +30,7 @@ $ cd ~/ros2_ws
 $ colcon build
 ```
 * Note that the package contains the code generation and includes the qpOASES library. If the user wants to use SM-NMPC for a different problem, they need to regenerate the code and replace it to the include folder.
-* Note that this project uses a custom plugin. Users need to replace the plugin path in the file /urdf/cube.urdf.xacro at line 1009. Replace: plugin name="cubeplugin" filename="/home/vanchung/dev_ws/install/smcnmpccube/lib/smcnmpccube/libcubeplugin.so" with the correct path by changing the username to the name of your computer. Then rebuild the project again to run the simulation.
+* Note that this project uses a custom plugin. Users need to replace the plugin path in the file /urdf/cube.urdf.xacro at line 1009. Replace: plugin name="cubeplugin" filename="/home/yourcomputername/dev_ws/install/smcnmpccube/lib/smcnmpccube/libcubeplugin.so" with the correct path by changing the username to the name of your computer. Then rebuild the project again to run the simulation.
 
 ## Simulation results
 
