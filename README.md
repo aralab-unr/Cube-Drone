@@ -107,5 +107,5 @@ We also test the stability of the proposed on the motor failure cases:
 
 ### Data collection and mapping
 <p align="center">
-  <img src="figures/slamcompare.png" alt="slamcompare" width="450">
+  <img src="figures/slamcompare.png" alt="slamcompare" width="800">
 </p>
