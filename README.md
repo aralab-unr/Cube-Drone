@@ -93,6 +93,9 @@ The Cube-Drone flew through a narrow culvert:
 </p>
 
 ### Multifunctional working mode test
+
+We further evaluated the Cube-Drone’s capabilities in climbing walls, approaching ceilings, and swimming with added buoyancy.
+
 <p align="center">
   <img src="figures/swimming.png" alt="swimming" width="450">
   <img src="figures/imuswimming.png" alt="imuswimming" width="350">
@@ -105,6 +108,7 @@ The Cube-Drone flew through a narrow culvert:
   <img src="figures/ground.png" alt="ground" width="450">
   <img src="figures/imuground.png" alt="imuground" width="350">
 </p>
+We also evaluated the Cube-Drone’s ability to transform from ground-running mode to flying mode in order to pass a stair, demonstrating the system’s adaptability to different terrain environments
 <p align="center">
   <img src="figures/stair1.png" alt="stair1" width="800">
 </p>
