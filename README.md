@@ -93,7 +93,7 @@ We also test the stability of the proposed on the motor failure cases:
 
 ### Multifunctional working mode test
 <p align="center">
-  <img src="figures/swimming" alt="swimming" width="400">
+  <img src="figures/swimming.png" alt="swimming" width="400">
   <img src="figures/imuswimming.png" alt="imuswimming" width="400">
 </p>
 <p align="center">
