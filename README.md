@@ -79,4 +79,7 @@ We also test the stability of the proposed on the motor failure cases:
 <p align="center">
   <img src="figures/performancecube.png" alt="performacne" width="500">
 </p>
-
+<p align="center">
+  <img src="figures/pwmcube.png" alt="pwmnormanl" width="500">
+  <img src="figures/pwmcubefailure.png" alt="pwmfailure" width="500">
+</p>
