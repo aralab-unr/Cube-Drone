@@ -84,7 +84,7 @@ We also test the stability of the proposed on the motor failure cases:
   <img src="figures/pwmcubefailure.png" alt="pwmfailure" width="400">
 </p>
 <p align="center">
-  <img src="figures/flyculvert3d.png" alt="flyculvert" width="750">
+  <img src="figures/flyculvert3d.png" alt="flyculvert" width="900">
 </p>
 <p align="center">
   <img src="figures/imuculvertangular.png" alt="imuculvert" width="400">
