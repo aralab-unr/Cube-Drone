@@ -1,1 +1,60 @@
 # Cube-Drone: A Multi-sensor Hybrid Drone for Multi-Terrain Mobility, 3D Mapping, and Steel Structure Inspection
+# Simulation
+
+## Software Requirements & Setup
+
+The simulation is configured with the following setup:
+- Ubuntu 22.04
+- ROS2 Humble
+- Gazebo 11
+- Xarco-ROS-Humble (sudo apt install ros-humble-xacro)
+- Gazebo_ros_pkgs (sudo apt install ros-humble-gazebo-ros-pkgs)
+- ACADO Toolkit (https://acado.github.io/)
+
+
+Follow these commands in order to install the simulation of SM-NMPC for the UAVs on ROS 2:
+
+```shell
+# Step 1: Create and build a colcon workspace:
+$ mkdir -p ~/dev_ws/src
+$ cd ~/dev_ws/
+$ colcon build
+$ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
+
+# Step 2: Clone this repo into your workspace
+$ cd ~/dev_ws/src
+Download the folder smcmpcquad or the smcnmpccube in the main branch
+
+# Step 3: Build the colcon workspace for this package
+$ cd ~/dev_ws
+$ colcon build
+```
+* Note that the package contains the code generation and includes the qpOASES library. If the user wants to use SM-NMPC for a different problem, they need to regenerate the code and replace it to the include folder.
+* Note that this project uses a custom plugin. Users need to replace the plugin path in the file /urdf/uav_drone.urdf.xacro at line 268. Replace: plugin name="uavplugin" filename="/home/vanchung/dev_ws/install/smcmpcquad/lib/smcmpcquad/libuavplugin.so" with the correct path by changing the username to the name of your computer. For the Cube-Drone, Replace line 1009 in the file /urdf/cube.urdf.xacro: plugin name="cubeplugin" filename="/home/vanchung/dev_ws/install/smcnmpccube/lib/smcnmpccube/libcubeplugin.so" with the correct path by changing the username to the name of your computer. Then rebuild the project again to run the simulation.
+
+## Simulation results
+
+To run the SM-NMPC for Quadrotor UAVs simulation, follow these commands:
+
+```shell
+# Step 1: Run the Gazebo model:
+$ ros2 launch smcmpcquad model.launch.py
+
+# Step 2: Run the EKF & controller
+$ ros2 run smcmpcquad EKF node
+$ ros2 run smcmpcquad smcmpcquad
+```
+To run the SM-NMPC for Cube-Drone simulation, follow these commands:
+
+```shell
+# Step 1: Run the Gazebo model:
+$ ros2 launch smcnmpccube model.launch.py
+
+# Step 2: Run the controller
+$ ros2 run smcnmpccube smcnmpccube
+```
+## Motor failure results
+
+To run the motor failure scenario, the user needs to modify the plugin in the file /src/uavplugin.cc or /src/cubeplugin.cc. Change the added throttle to 50% as described in the manuscript. For the quadrotor UAVs, comment out line 135 and uncomment line 132. For the Cube, comment out line 176 and uncomment line 178.
+
+Then rebuild the project and run the simulation as in the normal cases described above.
