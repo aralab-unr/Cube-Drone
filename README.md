@@ -74,12 +74,19 @@ To embed the controller onto the Teensy 4.1, the user must download the ArduinoS
 
 We also test the stability of the proposed on the motor failure cases:
 <p align="center">
-  <img src="figures/hardwaresetupfailure.png" alt="Drone Frame" width="500">
+  <img src="figures/hardwaresetupfailure.png" alt="Drone Frame" width="750">
 </p>
 <p align="center">
-  <img src="figures/performancecube.png" alt="performacne" width="500">
+  <img src="figures/performancecube.png" alt="performacne" width="750">
 </p>
 <p align="center">
-  <img src="figures/pwmcube.png" alt="pwmnormanl" width="500">
-  <img src="figures/pwmcubefailure.png" alt="pwmfailure" width="500">
+  <img src="figures/pwmcube.png" alt="pwmnormanl" width="400">
+  <img src="figures/pwmcubefailure.png" alt="pwmfailure" width="400">
+</p>
+<p align="center">
+  <img src="figures/flyculvert3d.png" alt="flyculvert" width="750">
+</p>
+<p align="center">
+  <img src="figures/imuculvertangular.png" alt="imuculvert" width="400">
+  <img src="figures/imuculvertacc.png" alt="accculvert" width="400">
 </p>
