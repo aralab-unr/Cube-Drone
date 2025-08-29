@@ -116,3 +116,5 @@ We also test the stability of the proposed on the motor failure cases:
 <p align="center">
   <img src="figures/slamcompare.png" alt="slamcompare" width="900">
 </p>
+
+### Inpsection
