@@ -76,3 +76,7 @@ We also test the stability of the proposed on the motor failure cases:
 <p align="center">
   <img src="figures/hardwaresetupfailure.png" alt="Drone Frame" width="500">
 </p>
+<p align="center">
+  <img src="figures/performancecube.png" alt="performacne" width="500">
+</p>
+
