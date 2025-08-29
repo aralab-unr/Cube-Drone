@@ -34,17 +34,8 @@ $ colcon build
 
 ## Simulation results
 
-To run the SM-NMPC for Quadrotor UAVs simulation, follow these commands:
 
-```shell
-# Step 1: Run the Gazebo model:
-$ ros2 launch smcmpcquad model.launch.py
-
-# Step 2: Run the EKF & controller
-$ ros2 run smcmpcquad EKF node
-$ ros2 run smcmpcquad smcmpcquad
-```
-To run the SM-NMPC for Cube-Drone simulation, follow these commands:
+To run the simulation for Cube-Drone, follow these commands:
 
 ```shell
 # Step 1: Run the Gazebo model:
@@ -55,6 +46,6 @@ $ ros2 run smcnmpccube smcnmpccube
 ```
 ## Motor failure results
 
-To run the motor failure scenario, the user needs to modify the plugin in the file /src/uavplugin.cc or /src/cubeplugin.cc. Change the added throttle to 50% as described in the manuscript. For the quadrotor UAVs, comment out line 135 and uncomment line 132. For the Cube, comment out line 176 and uncomment line 178.
+To run the motor failure scenario, the user needs to modify the plugin in the /src/cubeplugin.cc. Change the added throttle to 50% as described in the manuscript. For the Cube, comment out line 177 and uncomment line 179.
 
 Then rebuild the project and run the simulation as in the normal cases described above.
