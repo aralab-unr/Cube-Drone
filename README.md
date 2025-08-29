@@ -123,7 +123,10 @@ We also evaluated the Cube-Drone’s ability to transform from ground-running mo
 </p>
 
 ### Inpsection
-
+To validate this capability, we conducted experiments in three different locations:  
+    - Indoor inspection 
+    - Outdoor inspection  
+    - Closed-loop inspection on the campus bridge  
 <p align="center">
   <img src="figures/indoorinspectioncube.png" alt="indoorinspectioncube" width="800">
 </p>
