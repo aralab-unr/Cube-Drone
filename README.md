@@ -132,7 +132,7 @@ The data from the indoor inspection is as follows:
   <img src="figures/indoorinspectioncube.png" alt="indoorinspectioncube" width="800">
 </p>
 <p align="center">
-  <img src="figures/dataindoorinspection.png" alt="dataindoorinspectioncube" width="600">
+  <img src="figures/dataindoorinspection.png" alt="dataindoorinspectioncube" width="400">
 </p>
 The figure of outdoor inspection:
 <p align="center">
