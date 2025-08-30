@@ -127,6 +127,10 @@ To validate this capability, we conducted experiments in three different locatio
 -Indoor inspection  
 -Outdoor inspection  
 -Closed-loop inspection on the campus bridge  
+The data from the indoor inspection is as follows:
+<p align="center">
+  <img src="figures/indoorinspectioncube.png" alt="indoorinspectioncube" width="800">
+</p>
 <p align="center">
   <img src="figures/indoorinspectioncube.png" alt="indoorinspectioncube" width="800">
 </p>
