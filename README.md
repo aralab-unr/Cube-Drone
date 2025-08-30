@@ -118,6 +118,10 @@ We also evaluated the Cube-Drone’s ability to transform from ground-running mo
 </p>
 
 ### Data collection and mapping
+To use the SLAM algorithm, follow the command:
+```shell
+$ ros2 launch lio_imm liom.launch.py \pointcloud_topic:=<\cloud topic> \imu_topic:=<\imu topic> \img_topic:=<\img topic>
+```
 <p align="center">
   <img src="figures/slamcompare.png" alt="slamcompare" width="900">
 </p>
